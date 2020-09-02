@@ -15,7 +15,7 @@ router.route("/create")
           try{
 
                const r1 = await re.save()
-                res.status("Successfullly").json(r1)
+                res.status(201).json(r1)
               
             }catch(err){
             
