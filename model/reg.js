@@ -13,7 +13,6 @@ const regSchema = new mongoose.Schema({
         required: true
 
     },
-
     email: {
         type:String,
         required: true
@@ -22,7 +21,6 @@ const regSchema = new mongoose.Schema({
         type: String,
         required: true
     }
-
 })
 
 
